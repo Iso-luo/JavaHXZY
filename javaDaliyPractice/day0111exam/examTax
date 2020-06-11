@@ -1,0 +1,50 @@
+import java.util.Scanner;
+class Tax{
+	public static void main(String[] args)
+	{
+	
+		Scanner sc = new Scanner (System.in);
+	
+		System.out.println("plz input ur salary");
+	
+		int x= sc.nextInt();
+	
+		int sum(x);
+	
+		System.out.println("you should pay"+sum+"for the tax");
+	
+	}
+    public static int sum(int x)
+    {
+		if(0<x-3500&&x-3500<=1500)
+		{
+			sum=(x-3500)*3%-0;
+		} 
+		else if(1500<x-3500&&x-3500<=4500){
+			sum=(x-3500)*10%-105;
+		}
+		else if(4500<x-3500&&x-3500<=9000){
+			sum=(x-3500)*20%-555;
+		}
+		else if(9000<x-3500&&x-3500<=35000){
+			sum=(x-3500)*25%-1005;
+		}
+		else if(35000<x-3500&&x-3500<=55000){
+			sum=(x-3500)*30%-2755;
+		}
+		else if(55000<x-3500&&x-3500<=80000){
+			sum=(x-3500)*35%-5505;
+		}
+		else if(80000<x-3500){
+			sum=(x-3500)*45%-13505;
+		}
+
+		return sum;
+   }
+
+
+
+
+
+
+} 

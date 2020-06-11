@@ -1,0 +1,61 @@
+java常用类：
+
+	java package:
+	
+		applet 开发applet软件
+		awt    图形化界面
+		beans  框架  java beans
+		IO     input output
+		language  
+		net    
+		nio    new  io
+		rmi  远程方法
+		sql   关于数据开发
+		text  关于文本的包
+		util  工具饱
+		
+
+		"adasd"
+		8
+		00
+		new A()
+		
+		String y =  "b"  
+		String x = new (       y        );
+		
+		
+		
+		-------------
+		1,
+		
+		
+		"   hahaHahaa.java  "   ---> 转换成大写
+							
+						        转换成小写
+								去掉空格
+								只想要前面haha
+								只想要后面面haha
+							
+								
+								这字符串是以.java结尾
+	
+		"aaaa" "vbbb"   拼接在一起		
+		
+		--------------------------------
+		getBytes() ---》字节数组吧
+		
+		split
+		replace 
+		
+		
+		"sdasds".replace('a',"")
+ 
+	
+
+		
+		
+		
+		
+		
+		
+		

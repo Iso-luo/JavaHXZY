@@ -1,0 +1,18 @@
+﻿1.比较两个字符串时使用“==”还是equals()方法？
+
+equals() 比较的是字符串的内容
+== 比较的是地址值
+
+2.如何将字符串转化成int?
+
+String r;
+int x=Integer.parseInt(r);
+
+3.为什么在Java中存储密码要使用char[]，而不使用String。
+
+因为String不能记录空格
+
+4.String可以在Switch语句中使用吗？
+
+switch(int x)
+
